@@ -1,28 +1,20 @@
 import {
   mobile,
-  backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
+  firebase,
+  flutter,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  connectedSS,
+  griotSS,
+  courtCaseSS,
+  raktDataSS,
+  chatBotSS,
+  backend,
 } from "../assets";
 
 export const navLinks = [
@@ -46,11 +38,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Flutter Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Unity Developer",
     icon: backend,
   },
   {
@@ -61,44 +53,16 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Flutter",
+    icon: flutter,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Firebase",
+    icon: firebase,
   },
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -108,16 +72,12 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Flutter Developer",
+    company_name: "Connected Society",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -129,8 +89,8 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Flutter Developer",
+    company_name: "Griot",
     icon: tesla,
     iconBg: "#E6DEDD",
     date: "Jan 2021 - Feb 2022",
@@ -141,32 +101,32 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -198,67 +158,92 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Connected Society",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Revitalized UI, boosting performance and user engagement. Developed new features, exploring diverse packages. Thrived in Agile environment, adeptly utilizing Git for seamless collaboration in product development.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: connectedSS,
+    isPlayStore: true,
+    source_code_link: "https://play.google.com/store/apps/details?id=comconnected.society",
   },
   {
-    name: "Job IT",
+    name: "Rakt Data",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Crafted a Blood Donation app with Flutter and Firebase, facilitating vital connections between donors and recipients. Implemented Firebase for robust data handling, prioritizing privacy. Ensured seamless, secure storage and retrieval of critical information for a seamless user experience.",
     tags: [
       {
-        name: "react",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Firebase",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: raktDataSS,
+    isPlayStore: true,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.bloodDonation.raktdata",
   },
   {
-    name: "Trip Guide",
+    name: "Griot",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a dynamic podcast application using Flutter and Firebase, prioritizing user-friendly interfaces. Introduced an admin function for streamlined podcast uploads, improving content management. Demonstrated adaptability and attention to detail by closely following client-provided SRS for a seamless user experience.",
     tags: [
       {
-        name: "nextjs",
+        name: "Flutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Firebase",
         color: "green-text-gradient",
       },
+    ],
+    image: griotSS,
+    isPlayStore: true,
+    source_code_link: "https://play.google.com/store/apps/details?id=com.griot.stories",
+  },
+  {
+    name: "Court Case Management",
+    description:
+      "Designed a mobile app streamlining lawyer-client interactions. Engineered a dual-interface platform for efficient lawyer selection and consultations. Prioritized user experience, optimizing the process for both clients and lawyers, enhancing accessibility and convenience",
+    tags: [
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: courtCaseSS,
+    source_code_link: "https://github.com/Khushal747/Court-Case-Management-System",
+  },
+  {
+    name: "AI Chatbot",
+    description:
+      "Developed a user-friendly Android app with an intuitive interface suitable for all age groups. Incorporated OpenAI's GPT-3.5 for an interactive and engaging conversational experience, providing human-like responses. Enhanced accessibility and usability for seamless user interaction.",
+    tags: [
+      {
+        name: "Flutter",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+    ],
+    image: chatBotSS,
+    source_code_link: "https://github.com/Khushal747/chatgpt_application",
   },
 ];
 
